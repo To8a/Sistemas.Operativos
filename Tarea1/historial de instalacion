@@ -1,0 +1,27 @@
+root@Tomas:/home/ochoa# sudo apt install qrencode
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libqrencode4
+The following NEW packages will be installed:
+  libqrencode4 qrencode
+0 upgraded, 2 newly installed, 0 to remove and 151 not upgraded.
+Need to get 49,2 kB of archives.
+After this operation, 133 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://ar.archive.ubuntu.com/ubuntu mantic/universe amd64 libqrencode4 amd64 4.1.1-1 [24,0 kB]
+Get:2 http://ar.archive.ubuntu.com/ubuntu mantic/universe amd64 qrencode amd64 4.1.1-1 [25,2 kB]
+Fetched 49,2 kB in 0s (216 kB/s)
+Selecting previously unselected package libqrencode4:amd64.
+(Reading database ... 315154 files and directories currently installed.)
+Preparing to unpack .../libqrencode4_4.1.1-1_amd64.deb ...
+Unpacking libqrencode4:amd64 (4.1.1-1) ...
+Selecting previously unselected package qrencode.
+Preparing to unpack .../qrencode_4.1.1-1_amd64.deb ...
+Unpacking qrencode (4.1.1-1) ...
+Setting up libqrencode4:amd64 (4.1.1-1) ...
+Setting up qrencode (4.1.1-1) ...
+Processing triggers for man-db (2.11.2-3) ...
+Processing triggers for libc-bin (2.38-1ubuntu6) ...
+root@Tomas:/home/ochoa/Desktop# qrencode -o presente.png '31619 Ochoa Tomas'
